@@ -1,0 +1,137 @@
+body{
+    background-color: #0f1823;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1{
+    color: #fe4755;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.displayed-agent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#left-side{
+    width: 300px;
+}
+
+#right-side{
+    font-family: 'Noto Sans JP';
+    color: white;
+    font-size: 16px;
+    width: 300px;
+}
+
+#agent-info{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+#agent-name{
+    color: #fe4755;
+    font-size: 40px;
+}
+
+#agent-number{
+    color: #fe4756a4;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#role{
+    font-family: 'Noto Sans JP';
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#agent-role-text-image{
+    display: flex;
+    align-items: center;
+}
+
+#displayed-role-text{
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#displayed-role-image{
+    height: 24px;
+}
+
+.img-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image-container{
+    background-color: #fe4755;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    width: 25vh;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+#main-image{
+    width: 68vh;
+}
+
+.nav-button{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    margin: 50px;
+    z-index: 2;
+}
+
+.nav-button:hover{
+    background-color: rgba(55,65,75,.5)
+}
+
+
+.thumbnails{
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    justify-content: center;
+    gap: 4px;
+}
+
+.thumbnail{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border: 1px solid white
+}
+
+.thumbnail:hover{
+    background-color: rgba(55,65,75,.5)
+}
+
+.thumbnail.selected{
+    background-color: rgba(55,65,75,1);
+}
+
+.agent-biographies{
+    display: none;
+}
